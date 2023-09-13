@@ -21,6 +21,7 @@ const playerChar = {
   name: "Rascal",
   background: "Pirate",
   nameBack: function () {
+    //this is an object method as there is a function stored as a property within
     return this.name + " the " + this.background;
   },
 };
