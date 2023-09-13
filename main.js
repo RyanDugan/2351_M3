@@ -27,7 +27,7 @@ const playerChar = {
 };
 
 document.getElementById("test2").innerHTML =
-  "The player character is a " + playerChar.race + " " + playerChar.class;
+  "My player character is a " + playerChar.race + " " + playerChar.class;
 
 document.getElementById("test3").innerHTML = playerChar.nameBack();
 
