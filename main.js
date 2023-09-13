@@ -24,4 +24,4 @@ document.getElementById("test2").innerHTML =
 
 let veggies = "Broccoli, Carrot, Tomato, Green Bean";
 let twoVeggies = veggies.slice(10, 24);
-document.getElementById("test3").innerHTML = twoVeggies; //the carrot & tomato were sliced out of the beggies list due to the numerical parameters
+document.getElementById("test3").innerHTML = twoVeggies; //the carrot & tomato were sliced out of the veggies list due to the numerical parameters
