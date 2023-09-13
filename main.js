@@ -21,3 +21,7 @@ const playerChar = {
 
 document.getElementById("test2").innerHTML =
   "The player character is a " + playerChar.race + " " + playerChar.class;
+
+let veggies = "Broccoli, Carrot, Tomato, Green Bean";
+let twoVeggies = veggies.slice(10, 24);
+document.getElementById("test3").innerHTML = twoVeggies; //the carrot & tomato were sliced out of the beggies list due to the numerical parameters
