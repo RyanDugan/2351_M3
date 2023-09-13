@@ -28,9 +28,9 @@ const playerChar = {
 document.getElementById("test2").innerHTML =
   "The player character is a " + playerChar.race + " " + playerChar.class;
 
+document.getElementById("test3").innerHTML = playerChar.nameBack();
+
 let veggies = "Broccoli, Carrot, Tomato, Green Bean";
 let twoVeggies = veggies.slice(10, 24);
-document.getElementById("test3").innerHTML =
+document.getElementById("test4").innerHTML =
   twoVeggies + "  were sliced from the list"; //the carrot & tomato were sliced out of the veggies list due to the numerical parameters
-
-document.getElementById("test4").innerHTML = playerChar.nameBack();
