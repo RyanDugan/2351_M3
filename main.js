@@ -16,7 +16,7 @@ const playerChar = {
   class: "Barbarian",
   race: "Kobold",
   level: 3,
-  path: "Path of Wild Magic",
+  path: "Path of Wild Magic", //properties are listed within the playerChar object
 };
 
 document.getElementById("test2").innerHTML =
