@@ -16,6 +16,7 @@ const playerChar = {
   class: "Barbarian",
   race: "Kobold",
   level: 3,
+  path: "Path of Wild Magic",
 };
 
 document.getElementById("test2").innerHTML =
