@@ -13,10 +13,16 @@ function mathFunction(x, y) {
 console.log(x);
 
 const playerChar = {
+  //properties are listed within the playerChar object
   class: "Barbarian",
   race: "Kobold",
   level: 3,
-  path: "Path of Wild Magic", //properties are listed within the playerChar object
+  path: "Path of Wild Magic",
+  name: "Rascal",
+  background: "Pirate",
+  nameBack: function () {
+    return this.name + " the " + this.background;
+  },
 };
 
 document.getElementById("test2").innerHTML =
@@ -26,3 +32,5 @@ let veggies = "Broccoli, Carrot, Tomato, Green Bean";
 let twoVeggies = veggies.slice(10, 24);
 document.getElementById("test3").innerHTML =
   twoVeggies + "  were sliced from the list"; //the carrot & tomato were sliced out of the veggies list due to the numerical parameters
+
+document.getElementById("test4").innerHTML = playerChar.nameBack();
