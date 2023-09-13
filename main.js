@@ -1,3 +1,3 @@
 let randomQuestion =
   "Would you rather see something/someone from the past or from the future?";
-console.log(hello);
+console.log(randomQuestion);
