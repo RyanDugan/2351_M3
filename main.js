@@ -39,5 +39,5 @@ document.getElementById("test4").innerHTML =
 function clickFunction() {
   document.getElementById("btnTest").innerHTML = "You clicked me!";
   document.getElementById("test5").innerHTML = "Testing Complete!";
-  console.log("Nice!");
+  console.log("Nice Event!");
 }
