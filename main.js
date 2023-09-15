@@ -35,3 +35,8 @@ let veggies = "Broccoli, Carrot, Tomato, Green Bean";
 let twoVeggies = veggies.slice(10, 24);
 document.getElementById("test4").innerHTML =
   twoVeggies + "  were sliced from the list"; //the carrot & tomato were sliced out of the veggies list due to the numerical parameters
+
+function clickFunction() {
+  document.getElementById("btnTest").innerHTML = "You clicked me!";
+  document.getElementById("test5").innerHTML = "Testing Complete!";
+}
